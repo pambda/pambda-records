@@ -1,0 +1,41 @@
+{
+  "name": "pambda-records",
+  "version": "0.0.1",
+  "description": "Pambda to process event records",
+  "author": "Kengo Nakatsuka <kengo.nakatsuka@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/pambda/pambda-records/issues"
+  },
+  "dependencies": {
+    "lambda-callbackify": "0.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "tape": "^4.9.0"
+  },
+  "homepage": "https://github.com/pambda/pambda-records",
+  "keywords": [
+    "aws",
+    "dynamodb",
+    "kinesis",
+    "lambda",
+    "s3",
+    "ses",
+    "sns",
+    "pambda"
+  ],
+  "license": "MIT",
+  "main": "lib",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pambda/pambda-records.git"
+  },
+  "scripts": {
+    "prepublishOnly": "npm test",
+    "test": "tape test/test*.js"
+  },
+  "files": [
+    "README.md",
+    "lib/"
+  ]
+}
