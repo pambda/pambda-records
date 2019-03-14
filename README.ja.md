@@ -5,7 +5,7 @@
 ## Installation
 
 ```
-npm i pambda-records -S
+npm i pambda-records
 ```
 
 ## Usage
@@ -43,6 +43,7 @@ export const handler = createLambda(
 - S3 Event Notifications
 - SES
 - SNS
+- SQS (Standard Queue)
 
 ## License
 
