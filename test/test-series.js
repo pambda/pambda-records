@@ -1,10 +1,10 @@
 const test = require('tape');
-const { records } = require('..');
+const { series } = require('..');
 
 test('test', t => {
   t.plan(8);
 
-  const pambda = records((record, context, callback) => {
+  const pambda = series((record, context, callback) => {
     if (record % 2) {
       callback(new Error(record));
     } else {
@@ -43,7 +43,7 @@ test('test', t => {
 test('test async handler', t => {
   t.plan(8);
 
-  const pambda = records(async (record, context) => {
+  const pambda = series(async (record, context) => {
     if (record % 2) {
       throw new Error(record);
     }
