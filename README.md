@@ -37,13 +37,15 @@ Generate a pambda to process events having the `Records` property. The Pambda ig
 
 Event to handle by this pambda, are events of following services:
 
-- DynamoDB Streams
-- Kinesis Data Streams
-- Lambda@Edge
-- S3 Event Notifications
-- SES
-- SNS
-- SQS (Standard Queue)
+- [CloudTrail](https://docs.aws.amazon.com/lambda/latest/dg/with-cloudtrail.html)
+- [CodeCommit](https://docs.aws.amazon.com/lambda/latest/dg/services-codecommit.html)
+- [DynamoDB Streams](https://docs.aws.amazon.com/lambda/latest/dg/with-ddb.html)
+- [Kinesis Data Streams](https://docs.aws.amazon.com/lambda/latest/dg/with-kinesis.html)
+- [Lambda@Edge](https://docs.aws.amazon.com/lambda/latest/dg/lambda-edge.html)
+- [S3 Event Notifications](https://docs.aws.amazon.com/lambda/latest/dg/with-s3.html)
+- [SES](https://docs.aws.amazon.com/lambda/latest/dg/services-ses.html)
+- [SNS](https://docs.aws.amazon.com/lambda/latest/dg/with-sns.html)
+- [SQS (Standard Queue)](https://docs.aws.amazon.com/lambda/latest/dg/with-sqs.html)
 
 ## License
 
