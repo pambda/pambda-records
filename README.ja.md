@@ -28,7 +28,7 @@ export const handler = createLambda(
 
 ## records(options)
 
-`Record` プロパティを持つイベントを処理する Pambda を生成する。 その Pambda は無関係なイベントは無視する。
+`Records` プロパティを持つイベントを処理する Pambda を生成する。 その Pambda は無関係なイベントは無視する。
 
 - `options`
   - 関数を渡した場合、 `options.handler` として扱われる。
