@@ -16,12 +16,7 @@
   "homepage": "https://github.com/pambda/pambda-records",
   "keywords": [
     "aws",
-    "dynamodb",
-    "kinesis",
     "lambda",
-    "s3",
-    "ses",
-    "sns",
     "pambda"
   ],
   "license": "MIT",
@@ -32,6 +27,7 @@
   },
   "scripts": {
     "prepublishOnly": "npm test",
+    "postpublish": "npm-sns",
     "test": "tape test/test*.js"
   },
   "files": [
